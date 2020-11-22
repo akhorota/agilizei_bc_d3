@@ -1,4 +1,4 @@
-# Proffy Agilizei Bootcamp
+# agilizei_bootcamp_desafio3
 
 ## Iniciando o projeto
 
@@ -11,5 +11,6 @@
   f. instale as dependências: `npm install`
   g. teste o start da aplicação: `npm start`
 
-*Pronto, agora é só acompanhar a aula* ⚡️
-# agilizei_bootcamp_desafio3
+## Cypress Dashboard
+
+https://dashboard.cypress.io/projects/tp83ch/
