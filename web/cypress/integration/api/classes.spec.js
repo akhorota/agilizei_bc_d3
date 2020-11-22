@@ -25,7 +25,7 @@ context('Classes endpoint', () => {
               }
         }).then((response) => {
             expect(response.status).to.eq(201)
-            expect(response.duration).lessThan(30)
+            expect(response.duration).lessThan(50)
             expect(response.body[0]).to.have.property('class_id').an('number').greaterThan(0)
             expect(response.body[0]).to.have.property('week_day').an('number').equal(0)
             expect(response.body[0]).to.have.property('from').an('number').equal(`${from}`*60)
