@@ -4,5 +4,9 @@
   "experimentalComponentTesting": true,
   "componentFolder": "cypress/component",
   "env": {},
-  "projectId": "tp83ch"
+  "projectId": "tp83ch",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  }
 }
